@@ -1,0 +1,38 @@
+
+ .search_box {
+  width: 100%;
+  margin: auto;
+  font-family: verdana;
+}
+
+.search_box input {
+  padding: 10px;
+  width: 95%;
+  background: #fff;
+  font-size: 16px;
+  border: solid 10px #4988e8;
+}
+
+ul.datalist {
+  background: #fff;
+  width: 97.5%;
+  margin: 12px 0px;
+  padding: 0;
+  border: solid 2px #EBF1EF;
+}
+
+ul.datalist li {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background: #ffffff;
+  font-size: 16px;
+  border-bottom: solid 1px #ccc;
+  display: none;
+}
+
+ul.datalist li a {
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}

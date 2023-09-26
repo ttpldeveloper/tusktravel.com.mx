@@ -1,0 +1,130 @@
+section.video-and-photo{
+  padding:35px 0;
+  float:left;
+  width:100%;
+  background: #fcfcfc;
+}
+section.video-and-photo h2{
+  margin:0 0 15px 0;
+}
+a.more-photo-btn{
+  border:solid 1px #000;
+  padding:5px 10px;
+  color:#000;
+  font-size:18px;
+  float:right;
+}
+.bg-theme {
+    background-color: #ff5e14 !important;
+}
+.video__btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45%;
+    left: 45%;
+}
+.video-bg-img{
+  background-image: url(https://www.tusktravel.com.mx/images/videobg.jpg);
+  background-size: cover; background-position: center center; 
+  min-height:380px;
+  min-height:332px;
+}
+.popup-video {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.popup-video .video__player-animation {
+    position: relative;
+    width: 76px;
+    height: 76px;
+}
+.popup-video .video__player {
+    font-size:30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #e4114c;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+.popup-video .video__player i{
+      padding-top: 16px;
+      color: #ffffff;
+}
+.video__btn-white .video__player:after {
+    border-color: #ffffff;
+}
+
+.popup-video .video__player:after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.popup-video .video__player-animation:before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: -35px;
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    border:2px solid #ffffff;
+    border-radius: 50%;
+    -webkit-animation: pulsing 1.5s infinite linear;
+    -moz-animation: pulsing 1.5s infinite linear;
+    -ms-animation: pulsing 1.5s infinite linear;
+    -o-animation: pulsing 1.5s infinite linear;
+    animation: pulsing 1.5s infinite linear;
+}
+
+.modalvideo {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+.videoyoutube {
+  background-color: #fefefe;
+  margin: auto;
+  padding:0px;
+  border: 1px solid #888;
+  width:50%;
+  height:80%;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .video-bg-img{
+     margin-top:25px;
+    margin-bottom:25px;
+  }
+}

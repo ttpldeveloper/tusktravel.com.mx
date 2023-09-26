@@ -1,0 +1,201 @@
+
+          .send_my_enquiry{
+            background:#fff;
+            box-shadow: 0 0 8px rgba(0,0,0,.4);
+            float:left;
+            width:100%;
+            padding: 15px 25px;
+            margin-bottom: 35px;
+          }
+          .send_my_enquiry select{
+            height:39px;
+          }
+          .send_my_enquiry form{
+            padding: 0 24px 0 24px;
+          }
+          .send_my_enquiry h2{
+            border-bottom: 1px solid #343434;
+            padding: 12px 0;
+            color: #333;
+            display: block;
+            font-size: 20px;
+            margin-bottom: 30px;
+            margin-top:30px;
+          }
+          .send_my_enquiry input, select {
+              /*border-radius: 0px 5px 5px 0px;*/
+              border-radius: 0px;
+              border: 1px solid #bbb;
+              margin-bottom:15px;
+              width:100%;
+              height:39px;
+              padding:0px 15px;
+              position:relative;
+          }
+          .send_my_enquiry .buttonText {
+             -webkit-font-smoothing: antialiased;
+            display: table;
+            vertical-align: middle;
+            text-align: center;
+            font-family: inherit;
+            font-weight: 600;
+            float: none;
+            margin-bottom: 13px;
+            line-height: 22px;
+            cursor: pointer;
+            background-color: rgb(228, 17, 76);
+            color: rgb(255, 255, 255);
+            font-size: 22px;
+            text-decoration: none;
+            border-radius: 2px;
+            border-width: 0px;
+            border-style: solid;
+            padding: 9px 15px 9px 15px;
+            height: 42px;
+            margin: 15px auto;
+            }
+          .send_my_enquiry textarea{
+            width:100%;
+          }
+          .form_row{
+            padding:5px 0;
+            float:left;
+            /*width:100%;*/
+            width:50%;
+          }
+          .form_name{
+              /*float: left;
+              width: 18%;
+              padding-right: 5%;
+              font-size: 17px;*/            
+              float: left;
+              width: 88%;
+              font-size: 16px;
+              padding-bottom: 15px;
+              font-weight: 600;        
+            }
+          .form_name span{
+                color: #e4114c;
+          }
+          .form_field{
+            float:left;
+            width:82%;
+          }
+          .send_guest_childs_no{
+            width:47%;
+            float:left;
+            margin-left:3%;
+          } 
+          .send_guest_adults_no{
+            width:47%;
+            float:left;
+            margin-right:3%;
+          }
+          .contact-details{
+            border-bottom:solid 1px #777;
+          }
+          .contact-details p span{
+            display:block;
+            font-weight:bold;
+            color: #e4114c;
+          }
+          .office-hours{
+            padding-top:15px;
+          }
+          .office-hours ul{
+            margin:0;
+            padding:0;
+            list-style:none;
+          }
+          .contact-details h3 i, .office-hours h3 i{
+            font-size:35px;
+          }
+          .office-hours ul li{
+            margin:0;
+            padding:0;
+            list-style:none;
+          }
+          .office-hours ul li p{
+            padding-bottom:5px;
+          }
+          .how_to_create{
+
+          }
+          section.step_create{
+              background: url(images/login-background.jpg);
+              
+           }
+           .step_create_bg_color{
+             background:rgba(255, 255, 255, 0.7);
+             padding: 35px 0;
+           }
+          .creat_col{
+              width: 20%;
+              float: left;
+              margin-right: 5%;
+              text-align: center;
+            }
+            .creat_col .number{
+                /* text-align: center; */
+                margin: auto;
+                background: #000;
+                color: #fff;
+                width: 40px;
+                line-height: 36px;
+                font-size: 18px;
+                height: 40px;
+                border-radius: 50%;
+                display: table;
+            }
+            .creat_col .create_des{
+                /*padding-bottom: 27px;*/
+                padding-top: 10px;
+                font-size: 17px;
+            }
+
+          body.my-trip{
+    background:#ccc;
+}
+
+body.my-trip h1{
+margin-bottom:  25px;
+
+}
+body.my-trip input, body.my-trip select, body.my-trip textarea{
+  border:solid 1px #777!important;
+}
+.custom_section{ display: none; }
+
+
+          @media only screen and (max-width: 768px) {
+            .form_row, .form_field{
+              width:100%;
+            }            
+            .send_my_enquiry textarea {
+              margin-left: 2%;
+              width: 96%;
+            }
+            .plan_my_trip_form form{
+              float:none;
+            }
+            .send_my_enquiry{
+              padding:  0 15px;
+            }
+            .plan_my_trip_page .container {
+              padding:  0 4px;
+
+            }
+
+           input#guest_arv_date, body.my-trip input#guest_contact_no
+            {
+              width: 100%!important;
+              border: solid 1px!important;
+            }
+
+            .plan_my_trip_page{
+              padding-top:0;
+            }
+            .footer_customize_trip{
+              display:none;
+            }
+          }
