@@ -1,0 +1,4 @@
+User-agent: *
+
+# Sitemaps
+Sitemap: https://www.tusktravel.com.mx/sitemap.xml

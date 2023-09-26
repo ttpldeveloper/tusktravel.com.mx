@@ -1,0 +1,249 @@
+.booking_form_2 {
+    background: #fef2b8;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+    border: solid 4px #e4114c;
+}  
+#verticalForm{
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    padding-top: 15px;
+}    
+.booking_form_2 .booking_form_head {
+  background:#e4114c;
+  color: #fff;
+  padding:8px 10px;
+  text-align: center;
+}
+
+.booking_form_2 .custom_form_padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+      .booking_form_2 .booking_form_big {
+        font-size: 25px;
+      }
+     .booking_form_2 .booking_form_small {
+       font-size: 16px;
+     }
+      .booking_form_2 .left_name{ 
+        float:left;
+       color: #333;
+       width:100%;
+       display:none;
+      }
+      .booking_form_2 .form_field{
+        float:right;
+        width:100%;
+      }
+      .booking_form_2 .form_field .form-control[disabled] {
+        background-color: #fff;
+        opacity: 1;
+        border-radius: 0;
+        border-right: none;
+        /*border-left: none;*/
+      }
+      input#guest_contact_no {
+        width: 78%!important;
+      }
+      .booking_form_2 .form_field_text_area{
+       width:100%;
+       float:right;
+      }
+     .booking_form_2 .left_name_text_area {
+        width:100%;
+        float:left;
+        display:none;
+      }
+     .booking_form_2 input, select {
+    /* border-radius: 0px 5px 5px 0px; */
+    border-radius: 0px;
+    
+    margin-bottom: 15px;
+    width:100%;
+    height: 35px;
+    padding: 0px 7px;
+    position: relative;
+    
+
+
+
+ 
+
+
+
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #8a8989;
+    /*border-radius:0 4px 4px 0px;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+    .booking_form_2 textarea{
+      width: 100%;
+      /* border-radius: 0px 5px 5px 0px; */
+      height: 80px;
+      padding: 5px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #8a8989;
+   /* border-radius:4px;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+    .booking_form_2 .form-margin_mrg_top_bot{
+      padding:0px 0
+    }
+    .booking_form_2 .icon-case {
+      width: 35px;
+      float: left;
+      /* border-radius: 5px 0px 0px 5px; */
+      border-radius: 0;
+      background: #ffffff;
+      height: 35px;
+      position: relative;
+      color: #e4114c;
+      text-align: center;
+      line-height: 40px;
+      border: 1px solid #ccc;
+       border-right: none;
+       display:none;
+    
+
+     
+    /*border-radius:4px 0px 0px 4px;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+    }
+/**/
+
+/**/
+
+
+    .booking_form_2 label{
+      color: #333;
+      font-size: 14px;
+      padding: 0 2px 0 0px;
+
+    }
+    .booking_form_2 input{
+
+    }
+   .booking_form_2 .button {
+    -webkit-font-smoothing: antialiased;
+    display:table;
+    vertical-align: middle;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 600;
+    float:none;
+    margin-bottom: 13px;
+    line-height: 1.5;
+    cursor: pointer;
+    background-color:rgb(228, 17, 76);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+    border-width: 0px;
+    border-style: solid;
+    padding: 9px 15px 9px 15px;
+    height: 42px;
+    margin:15px auto;
+  }
+  .booking_form_2 .adult_col_sec{
+    padding-right:5px;
+  }
+  .booking_form_2 .child_col_sec{
+    padding-left:5px;
+  }
+.booking_form_2 .buttonText {
+    font-size: 18px;
+    float: left;
+}
+.booking_form_2 .fontIcon {
+    /* position: absolute; */
+    /* left: 27px; */
+    font-size: 16px;
+    top: 14px;
+    float: right;
+    padding-left: 15px;
+    padding-top: 3px;
+    color: #fff;
+}
+.booking_form_2 .travelers_col select{
+    width:100%;
+    padding-left: 5px;
+}
+.booking_form_2  input#c_code{
+  width:21%;
+  float: left;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*custom select box css start here*/
+.booking_form_2 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAANCAYAAAC+ct6XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjBBRUQ1QTQ1QzkxMTFFMDlDNDdEQzgyNUE1RjI4MTEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjBBRUQ1QTU1QzkxMTFFMDlDNDdEQzgyNUE1RjI4MTEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMEFFRDVBMjVDOTExMUUwOUM0N0RDODI1QTVGMjgxMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMEFFRDVBMzVDOTExMUUwOUM0N0RDODI1QTVGMjgxMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pk5mU4QAAACUSURBVHjaYmRgYJD6////MwY6AyaGAQIspCieM2cOjKkIxCFA3A0TSElJoZ3FUCANxAeAWA6IOYG4iR5BjWwpCDQCcSnNgxoIVJCDFwnwA/FHWlp8EIpHSKoGgiggLkITewrEcbQO6mVAbAbE+VD+a3IsJTc7FQAxDxD7AbEzEF+jR1DDywtoCr9DbhwzDlRZDRBgACYqHJO9bkklAAAAAElFTkSuQmCC);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+/*  select {
+
+}*/
+
+/* CAUTION: IE hackery ahead */
+.booking_form_2 select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+span.icon-case i {
+    margin-top: 11px;
+}
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    .booking_form_2 select {
+        background:none\9;
+        padding: 5px\9;
+    } 
+}
+
+@media only screen and (max-width: 1024px) {
+  .booking_form_2 input, select{
+    width:85%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .booking_form_2 input, select{
+        /*width:85%;*/
+    }
+    .booking_form_2 .travelers_col select {
+        /*width:85%;*/
+    }
+    input#guest_contact_no{
+        width: 72%!important;
+    }
+
+
+}
