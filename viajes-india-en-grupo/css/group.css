@@ -1,0 +1,654 @@
+ .group-top-banner{
+    background:#777;
+    width:100%;
+    overflow:hidden;
+  }
+
+  .group-top-banner{
+  position:relative;
+}
+.intpkg-lfttop, .addtours {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    letter-spacing: 0.02em;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+.intpkg-lfttxt span {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 17px;
+    background-color: #c13b02;
+    color:#fff;
+    
+}
+.intpkg-lfttxt h1 {
+    font-size: 36px;
+    font-variant: small-caps;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: bold;
+    margin: 5px 0;
+    color:#fff;
+}
+.intpkg-lfttxt p {
+    font-size: 17px;
+    margin-bottom: 0;
+    color:#fff;
+}
+.intpkg-rgttxt {
+    vertical-align: bottom;
+    /* padding-top: 48px; */
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+.intpkg-rgttxt span {
+    color: #fff;
+    font-size: 18px;
+    font-style:italic;
+}
+.intpkg-rgttxt strong {
+    display: block;
+    font: bold 30px Arial, Helvetica, sans-serif;
+    color: #ffde00;
+}
+.intpkg-rgttxt strong i {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*land page css*/
+  .group-tour-right{
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 15px;
+  background: #fff;
+  -moz-box-shadow: 0 0 5px #ededed;
+  -webkit-box-shadow: 0 0 5px #ededed;
+  box-shadow: 0 0 5px #ededed;
+  margin-top:25px;
+  }
+  .group-tour-right ul{
+  list-style: none;
+  margin:0;
+  padding:0
+  }
+  .group-tour-right ul li{
+  list-style: none;
+  padding:15px 0;
+  float:left;
+  width:100%;
+  }
+
+  .group-tour-right .img-col{
+   float: left;
+   /* width: 30px; */
+   padding-right: 13px;
+  }
+  .group-tour-right .img-col i{
+   font-size: 25px;
+   color:#b8b8b8;
+  }
+  .group-tour-right .details-col{
+    float: left;
+    font-size: 16px;
+    font-weight:500;
+    color: #777;
+
+  }
+  .group-tour-right span{
+  float:left;
+  width:100%;
+  display: block;
+  padding-top:8px;
+  }
+  .group-tour-right span i{
+        margin: 0 0 0 2px;
+        color: #ffcd47;
+  }
+  .group-tou-india-package-list{
+
+  }
+  .group-tou-india-package-list .group-tour-item{
+      float: left;
+      width: 100%;
+      margin: 0 0 20px 0;
+      padding:10px;
+      background: #fff;
+      font-family: 'Montserrat', sans-serif;
+      border: 1px solid #f1f1f1;
+      -moz-box-shadow: 0 0 20px #eeeeee;
+      -webkit-box-shadow: 0 0 20px #eeeeee;
+      box-shadow: 0 0 20px #eeeeee;
+  }
+  section.full-breds{
+    display:none;
+  }
+  .group-tou-india-package-list .group-tour-item .image-section{
+   width:65%;
+   float:left;
+   padding-right:10px;          
+  }
+  .group-tou-india-package-list .group-tour-item .image-section img{
+    width:100%;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section{
+      float:right;
+      width:35%;
+      padding:10px;
+      background: #3c3c3c;
+  }
+   .group-tou-india-package-list .group-tour-item .descriptin-section h3{
+      margin: 0;
+      padding: 24px 0;
+      color: #fff;
+      font-size: 30px;
+   }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul {
+    list-style: none;
+    margin:25px 0 0 0;
+    padding:0;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li{
+       border-bottom: solid 1px #ccc;
+        padding: 15px 0;
+        float:left;
+        width:100%;
+        color:#fff;
+  }
+    .group-tou-india-package-list .group-tour-item .descriptin-section ul li:last-child{
+      border:none;
+    }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .peice{
+   float:left;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .peice b{
+    font-weight:bold;
+    font-size:30px;
+    display:block;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .start{
+    float: left;
+    width: 50%;
+    font-size: 22px;
+    font-weight: 500;
+    border-right: solid 2px #777;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .start b{
+    display:block;
+    font-size:14px;
+    color: #fff;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .end b{
+    display:block;
+    font-size:14px;
+    color: #fff;                  
+    }
+
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .end{
+    float:right;
+    text-align:right;
+    width:50%;                    
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .peice-tag{
+    float:right;
+    font-size:14px;
+    text-align:right;
+    color:#fdd2ba;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section ul li .view-more{
+    width:100%;
+    display:block;
+    background:#ffd800;
+    color:#fff;
+  }
+   .group-tou-india-package-list .group-tour-item .descriptin-section ul li .view-more a{
+        color: #000;
+        width: 100%;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+   }
+
+  .group-tou-india-package-list .group-tour-item .descriptin-section .reviews{
+
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section .reviews i{
+    margin: 0;
+    padding: 0;
+    color:#ecc907;
+    font-size: 20px;
+  }
+  .group-tou-india-package-list .group-tour-item .descriptin-section .reviews span {
+      margin: 0;
+      padding: 2px 14px 2px 14px;
+      float: right;
+      background: none;
+      font-size: 12px;
+      color:#fdd2ba;
+      font-weight: 500;
+  }
+
+/*land page css end */
+  .group-row{
+    float:left;
+    width:100%;
+  }
+  .group-head-name, .pkgtor-head {
+    font-size:22px;
+    font-weight: 600;
+    /* text-align: center; */
+    margin-bottom: 10px;
+    display: table;
+    padding-bottom: 8px;
+    color: #664851;
+    position: relative;
+    border-bottom: solid 3px #ccc;
+  }
+  .group-head-name:before, .pkgtor-head:before {
+   content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 100px;
+    border-top: 3px solid #e4114c;
+  }
+
+  .tusk_side_form{
+    display:none;
+  }
+  .booking_form_head{
+    display:none;
+  }
+.GroupStickeyNav{
+  width:100%;
+  background:#ccc;
+  float:left;
+  display:block;
+}
+.GroupStickeyNav ul{
+  margin:0;
+  padding:0;
+  width:100%;
+  display:table;
+}
+.GroupStickeyNav ul li{
+    display: table-cell;
+    float: left;
+    padding: 0 25px;
+}
+.GroupStickeyNav ul li a{
+    margin: 0;
+    padding: 10px 0;
+    color: #111;
+    display:block;
+    font-size: 18px;
+    text-decoration: none;
+    text-align:center;
+    border-bottom:solid 3px transparent;
+}
+.GroupStickeyNav ul li a:hover, .GroupStickeyNav ul li a.active{
+  border-bottom:solid 3px rgb(228, 17, 76);;
+}
+.GroupStickeyNav.fixed-header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: block;
+    border-bottom: solid 2px #ffd000;
+}
+.group-highlights {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 10px;
+    float:left;
+    width:100%;
+}
+.group-highlights li {
+    list-style: none;
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0 10px 6px 22px;
+    background: url(../group-images/highlights-arrow.png) no-repeat 0 7px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    word-spacing: 1.5px;
+    letter-spacing: .5px;
+    line-height: 26px;
+}
+
+.pkgincl-txt ul:nth-of-type(1) {
+    list-style: none;
+    padding-left: 0;
+}
+.pkgincl-txt ul {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 20px;
+}
+.incl-green ul:nth-of-type(1) li::before {
+    content: "\e013";
+    font-size: 14px;
+    color: #5b9229;
+}
+.incl-green ul:nth-of-type(1) li::before, .incl-red ul:nth-of-type(1) li::before {
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    left: 0;
+    top: 1.5px;
+}
+.group-table {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+}
+.group-table table{
+  border:solid 3px #ccc;
+}
+.group-table table tr{
+  
+}
+.group-table table tr td{    
+    color: #100005;
+    padding:10px;
+     border:solid 1px #ccc;
+}
+.group-table table tr td:first-child {
+    background: #494746;
+    color: #fff;
+}
+.group-table table tr td a{
+  color:#000;
+}
+.group-table table tr th{
+  background:#ffd000;
+  color:#2a2b2b;
+  padding:10px;
+}
+
+.inclusion ul{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 10px;
+    float:left;
+    width:100%;
+}
+.inclusion ul li{
+      list-style: none;
+    font-size: 14px;
+    width:50%;
+    float:left;
+    padding: 0 10px 6px 22px;
+    background: url(../group-images/highlights-arrow.png) no-repeat 0 7px;
+    
+        font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    word-spacing: 1.5px;
+    letter-spacing: .5px;
+    line-height: 26px;
+}
+.even-section-bg{
+    padding:30px 0;
+}
+.odd-section-bg{
+  padding:30px 0;
+   background: #f7f7f7;
+}
+.name-title-inner{
+  font-size:15px;
+  font-weight:bold;
+  color:#000;
+  text-decoration:underline;
+}
+.price-section-table{}
+.price-section-head{
+    padding: 0 0 28px 0;
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: none;
+}
+.price-from {
+    /* border: solid 3px #cccccc; */
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+}
+.price-from p {
+    font-size: 26px;
+    text-align: center;
+    line-height: 45px;
+}
+.price-section-table {
+  /*  border: solid 3px #cccccc;*/
+    
+}
+.price-box{
+  
+}
+.price-room{
+    font-size: 26px;
+}
+.cost-box{
+    margin: 15px 0;
+    /* border: solid 2px #e4114c; */
+    padding: 15px;
+    background: #fff;
+    font-weight:800;
+}
+.cost{
+  font-size: 40px;
+  padding: 20px 0 0 0;
+  color: #e4114c;
+}
+.per-person{
+    font-size: 21px;
+    color: #777;
+}
+.not-inclusion ul{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0;
+    padding-left: 10px;
+    float:left;
+    width:100%;
+}
+.not-inclusion ul li{
+      list-style: none;
+    font-size: 14px;
+    width:50%;
+    float:left;
+    padding: 0 10px 6px 22px;
+    background: url(../group-images/highlights-arrow.png) no-repeat 0 7px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    word-spacing: 1.5px;
+    letter-spacing: .5px;
+    line-height: 26px;
+}
+div#tusk_side_form {
+    display: none;
+}
+div#Enquire {
+    background: #ffb368;
+    padding: 50px 0;
+}
+select#guest_selected_type_hotel_2 {
+    width: 82%;
+}
+input#c_code2 {
+    width: 11%;
+    background: #fff;
+    float: left;
+    border-right: none;
+}
+input#guest_contact_no_2 {
+    width: 89%;
+}
+div#Price {
+    background: url(../group-images/bg-2.jpg);
+}
+.send_my_enquiry h2.enquire-head {
+    border-bottom: 2px solid #e4114c;
+    padding: 12px 0;
+    color: #e4114c;
+    font-size:35px;
+}
+
+body.group-page p, .group-highlights li {
+    font-size: 14px;
+    line-height: 28px;
+}
+body.group-page .TourDates{
+  font-size:16px;
+}
+.itinerary-image-collection{
+}
+.itinerary-image-collection img{
+    width: 45%;
+    float: left;
+    margin-bottom:10px;
+}
+.itinerary-image-collection img:nth-child(even){
+  margin-left:5px;
+}
+  
+.itinerary-image-collection img:nth-child(odd){
+ 
+    margin-right:5px;
+}
+.tout-stickey-navigation.fixed-header{
+	display:none;
+}
+footer .footer-bar{
+	margin-bottom:0;
+}
+  .enquiryBtnfixed {
+    background-color: #ffd800;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    color: #212221;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .8125rem 1.9375rem;
+    line-height: 1.625rem;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    outline: 0;
+    position:fixed;
+    bottom: 25px;
+    right: 0;
+}
+.enquiryBtnfixed a{
+	color:#000;
+}
+  
+
+@media only screen and (max-width: 768px) {
+  .inclusion ul li, .not-inclusion ul li {
+    width:100%;
+  }
+  input#c_code2 {
+    text-align:center;
+    padding:0;
+  }
+  .group-highlights li{
+    width:100%;
+  }
+  .send_my_enquiry textarea{
+        border: solid 1px #ccc;
+  }
+  .GroupStickeyNav ul li{
+    padding:0;
+  }
+  .GroupStickeyNav ul li a {
+    font-size:11px;
+  }
+  .GroupStickeyNav .container{
+    padding:0 3px;
+  }
+  .group-top-banner{
+    height:auto;
+  }
+  .group-highlights li{
+  	width:100%;
+  }
+
+  .group-top-banner{
+  	height:auto;
+  }
+  .group-top-banner img{
+    display:none;
+  }
+  .intpkg-lfttop {
+    position: static;
+    background-color: #222;
+    padding-top: 15px;
+   }
+   .intpkg-rgttxt {
+    position: static;
+   }
+
+  .GroupStickeyNav ul li{
+  	 border-right: solid 1px #fff;
+  }
+  .GroupStickeyNav ul li:last-child{
+  	border:none;
+  }
+  .GroupStickeyNav ul li a{
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    line-height: 13px;
+    color:#fff;
+  }
+  .tour-collection{
+  	padding-left:10px;
+  	padding-right:10px;
+  }
+  .GroupStickeyNav.fixed-header {
+  	top:38px;
+  	
+  }
+  .GroupStickeyNav {
+  	background:#cc0e31;
+  	border-bottom: solid 2px #ffd000;
+  	}
+  	body{
+  		padding-bottom:0;
+  	}
+    .group-tou-india-package-list .group-tour-item .image-section{
+      width:100%;
+    }
+    .group-tou-india-package-list .group-tour-item .descriptin-section{
+      width:100%;
+    }
+
+
+
+}
